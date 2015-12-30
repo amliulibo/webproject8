@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>1.2</jsp-version>
+  <short-name>util</short-name>
+  <uri>http://java.sun.com/jstl/core</uri>
+  <display-name>JSTL core</display-name>
+  <description>custom web utility tags</description>
+  
+  <tag>
+  <description>calc code running time</description>
+  	<name>timer</name>
+  	<tag-class>com.v512.tags.TimerTag</tag-class>
+  	<body-content>JSP</body-content>
+  </tag>
+</taglib>
